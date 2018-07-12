@@ -1,0 +1,12 @@
+input, button {
+  margin-top: 5px;
+}
+
+.email, .password {
+  margin: auto;
+  width: 50%;
+}
+
+form {
+  text-align: center;
+}
