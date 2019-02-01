@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const VENDOR_LIBS = [
   'react', 'react-dom', 'react-bootstrap', 'redux', 'react-redux',
-  'react-router'
+  'react-router', 'babel-polyfill'
 ];
 
 module.exports = {

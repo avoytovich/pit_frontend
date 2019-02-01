@@ -3,6 +3,8 @@ import { Grid, Row, Col } from 'react-bootstrap';
 import './Main.css';
 import { About, Login, Logo } from './../../components';
 
+import Location from './../../containers/location/location';
+
 export class Main extends React.Component {
   render() {
     return (
@@ -18,6 +20,7 @@ export class Main extends React.Component {
             <Login />
           </Col>
         </Row>
+        <Location/>
       </Grid>
     );
   }
